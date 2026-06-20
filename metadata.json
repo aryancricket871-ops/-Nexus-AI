@@ -1,0 +1,6 @@
+{
+  "name": "Nexus AI",
+  "description": "A pixel-perfect, dark-themed 'Obsidian' UI application exactly like a high-end AI tool.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
