@@ -21,11 +21,9 @@ jobs:
 
       - name: Build with Gradle
         run: |
-          # अब हमने वर्शन 9.3.1 कर दिया है
-          ./gradlew wrapper --gradle-version 9.3.1
-          chmod +x gradlew
-          ./gradlew assembleDebug
-
+          # यह कमांड बिना किसी jar फाइल के बिल्ड करेगी
+          gradle assembleDebug
+        
       - name: Upload APK
         uses: actions/upload-artifact@v4
         with:
