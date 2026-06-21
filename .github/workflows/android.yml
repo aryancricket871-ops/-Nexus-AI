@@ -21,6 +21,7 @@ jobs:
 
       - name: Build with Gradle
         run: |
+          # यह कमांड Keystore की चेकिंग को बंद कर देगी और बिल्ड पूरा करेगी
           chmod +x gradlew
           ./gradlew assembleDebug -x validateSigningDebug
 
