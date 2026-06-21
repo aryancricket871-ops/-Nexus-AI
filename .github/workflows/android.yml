@@ -21,8 +21,8 @@ jobs:
 
       - name: Build with Gradle
         run: |
-          # यह कमांड Gradle का नया वर्शन खुद डाउनलोड कर लेगी
-          gradle wrapper --gradle-version 8.0
+          # अब हमने वर्शन 9.3.1 कर दिया है
+          ./gradlew wrapper --gradle-version 9.3.1
           chmod +x gradlew
           ./gradlew assembleDebug
 
